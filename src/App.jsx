@@ -59,18 +59,28 @@ function App() {
      <div className="App">
       <ComponentTimer />
      </div>
-     <div className="App">
-      <ColorBox />
-     </div>
+     
+     <h1>Exercice 1</h1>
      <div className="App">
       <Counter />
      </div>
+
+     <h1>Exercice 2</h1>
      <div className="App">
       <ListManager />
      </div>
+
+     <h1>Exercice 3</h1>
+     <div className="App">
+      <ColorBox />
+     </div>
+
+     <h1>Exercice 4</h1>
      <div className="App">
       <NoteManager />
      </div>
+
+     <h1>Exercice 5</h1>
      <div className="App">
       <TodoList />
      </div>
