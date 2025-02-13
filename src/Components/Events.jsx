@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Alert } from "react-bootstrap";
 import Event from "./Event";
 
 const Events = () => {
@@ -34,6 +34,12 @@ const Events = () => {
 
   return (
     <Container className="mt-4">
+      {/* Message de Bienvenue */}
+      <Alert variant="success">
+        <h4>Bienvenue sur notre plateforme d'événements!</h4>
+        <p>Nous avons des événements passionnants à venir. Réservez votre place dès maintenant!</p>
+      </Alert>
+
       <Row className="g-4">
         {events.map((event, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={3}>
