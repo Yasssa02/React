@@ -15,6 +15,7 @@ import NoteManager from './Components/NoteManager';
 import TodoList from './Components/TodoList'
 import Event from './Components/Event'
 import Events from './Components/Events'
+import Products from './Components/Products'
 
 
 function App() {
@@ -42,8 +43,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <Hello/>
-      <h1>Atelier 0</h1>
+      {/* <Hello/> */}
+      {/* <h1>Atelier 0</h1>
       
       <Form labelle="FirstName : " type="text" namee="FirstName" name="Firstname"/>
       <Form labelle="LastName : "/>
@@ -88,6 +89,13 @@ function App() {
      <div className="App">
       <h1 className="text-center my-4">Event Management System</h1>
       <Events/>
+    </div> */}
+
+
+    <h1>Exercice Product</h1>
+     <div className="App">
+      <h1 className="text-center my-4">Product</h1>
+      <Products/>
     </div>
      
   
