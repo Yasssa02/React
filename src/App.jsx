@@ -17,6 +17,7 @@ import Event from './Components/Event'
 import Events from './Components/Events'
 import Products from './Components/Products'
 import ToDoListZustand from './Components/ToDoListZustand';
+import Panier from './Components/Panier'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -92,18 +93,19 @@ function App() {
     </div> */}
 
 
-    {/* <h1>Exercice Product</h1>
+    <h1>Exercice Product</h1>
      <div className="App">
       <h1 className="text-center my-4">Product</h1>
       <Products/>
-    </div> */}
+    </div>
 
-    <h1>Zustand Stores</h1>
+    {/* <h1>Zustand Stores</h1>
      <div className="App">
  
       <ToDoListZustand/>
       <Counter/>
-    </div>
+      <Panier/>
+    </div> */}
 
     
      
